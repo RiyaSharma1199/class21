@@ -17,9 +17,7 @@ function setup() {
   gameObject3.shapeColor = "green";
   gameObject4 = createSprite(400, 100, 50, 50);
   gameObject4.shapeColor = "green";
-  
-  fixedRect.velocityY=-2;
-  gameObject4.velocityY=2;
+ 
 }
 
 function draw() {
@@ -36,7 +34,6 @@ function draw() {
     gameObject1.shapeColor = "green";
   }
   
-   bounceOff(gameObject4,fixedRect);
   
   drawSprites();
 }
