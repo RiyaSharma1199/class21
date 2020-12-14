@@ -1,2 +1,2 @@
 # Collision Algorithm
-Collision algorithm Part-1
+Collision algorithm Part-2
